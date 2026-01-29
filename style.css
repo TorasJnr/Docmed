@@ -6,13 +6,14 @@
         height: 7vh;
         width: 100%;
         background-color: rgb(220, 241, 241);
+        position: relative;
     }
-    ul.header{
+    ul.header, ul.mail, ul.contact{
         display: flex;
         margin-left: 9%;
         list-style-type: none;
     }
-    ul.header li{
+    ul.header li, ul.mail li, ul.contact li{
         margin: 12px 8px;
     }
     ul.header li a{
@@ -20,4 +21,7 @@
     }
     ul.header li a:hover{
         color: rgba(0, 0, 255, 0.508);
+    }
+    ul.mail{
+
     }
