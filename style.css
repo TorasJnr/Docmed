@@ -22,8 +22,13 @@
     ul.header li a:hover{
         color: rgba(0, 0, 255, 0.508);
     }
-    ul.mail{
-
+    ul.mail, ul.contact{
+        position: absolute;
+        right: 300px;
+        top: 0;
+    }
+    ul.contact{
+        right: 100px;
     }
 
 /* git add .
