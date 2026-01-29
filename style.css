@@ -2,7 +2,7 @@
         margin: 0;
         padding: 0;
     }
-    .head{
+    header.head{
         height: 7vh;
         width: 100%;
         background-color: rgb(238, 255, 255);
@@ -39,7 +39,7 @@
         text-decoration: none;
      }
      li.envelope > a > i{
-        color: rgba(0, 0, 255, 0.508);
+        color: rgb(147, 147, 246);
         font-size: 14px;
      }
 
