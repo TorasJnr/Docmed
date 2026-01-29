@@ -5,7 +5,7 @@
     .head{
         height: 7vh;
         width: 100%;
-        background-color: rgb(220, 241, 241);
+        background-color: rgb(238, 255, 255);
         position: relative;
     }
     ul.header, ul.mail, ul.contact{
@@ -24,14 +24,15 @@
     }
     ul.mail, ul.contact{
         position: absolute;
-        right: 300px;
+        right: 250px;
         top: 0;
     }
     ul.contact{
-        right: 100px;
+        right: 125px;
     }
      ul.mail > li, ul.contact > li{
         margin: 12px 5px;
+        font-family: calibri;
      }
      ul.mail li > a, ul.contact li > a{
         color: rgba(0, 0, 0, 0.466);
