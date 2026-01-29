@@ -13,13 +13,13 @@
         margin-left: 9%;
         list-style-type: none;
     }
-    ul.header li, ul.mail li, ul.contact li{
+    ul.header li{
         margin: 12px 8px;
     }
-    ul.header li a{
+    ul.header li > a{
         color: rgba(0, 0, 0, 0.259);
     }
-    ul.header li a:hover{
+    ul.header > li a:hover{
         color: rgba(0, 0, 255, 0.508);
     }
     ul.mail, ul.contact{
@@ -30,6 +30,17 @@
     ul.contact{
         right: 100px;
     }
+     ul.mail > li, ul.contact > li{
+        margin: 12px 5px;
+     }
+     ul.mail li > a, ul.contact li > a{
+        color: rgba(0, 0, 0, 0.466);
+        text-decoration: none;
+     }
+     li.envelope > a > i{
+        color: rgba(0, 0, 255, 0.508);
+        font-size: 14px;
+     }
 
 /* git add .
 git commit -m "Initial commit"
