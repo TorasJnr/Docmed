@@ -2,6 +2,8 @@
         margin: 0;
         padding: 0;
     }
+
+    /* first header  */
     header.head{
         height: 7vh;
         width: 100%;
@@ -42,16 +44,30 @@
         color: rgb(147, 147, 246);
         font-size: 14px;
      }
+
+    /* second header  */
      header.second{
         height: 15vh;
         width: 100%;
         background-color: red;
         display: flex;
         align-items: center;
+        position: relative;
      }
     header.second > img{
         margin-left: 9.5%;
     }
+
+    ul.second-ul{
+        list-style-type: none;
+        display: flex;
+    }
+    ul.second-head li{
+        position: absolute;
+        right: 10%;
+        margin-left: 30px;
+    }
+
 
 /* git add .
 git commit -m "Initial commit"
