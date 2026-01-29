@@ -1,9 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.head{
-    height: 10vh;
-    width: 100%;
-    background-color: red;
-}
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .head{
+        height: 7vh;
+        width: 100%;
+        background-color: red;
+    }
+    ul.header{
+        display: flex;
+        margin-left: 9%;
+        list-style-type: none;
+    }
+    ul.header li{
+        margin: 10px 5px;
+    }
