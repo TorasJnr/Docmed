@@ -46,9 +46,11 @@
         height: 15vh;
         width: 100%;
         background-color: red;
+        display: flex;
+        align-items: center;
      }
-    header.second img{
-
+    header.second > img{
+        margin-left: 9.5%;
     }
 
 /* git add .
