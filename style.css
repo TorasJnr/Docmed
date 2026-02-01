@@ -76,6 +76,15 @@
     }
     header.second > button{
         width: 200px;
+        border: none;
+        height: 50px;
+        width: 200px;
+        border: none;
+        background-color: #009DFF;
+        color: white;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        /* font-weight: bold; */
     }
 
 
