@@ -41,7 +41,7 @@
         text-decoration: none;
      }
      li.envelope > a > i{
-        color: rgb(147, 147, 246);
+        color: #009DFF;
         font-size: 14px;
      }
 
@@ -62,10 +62,10 @@
     ul.second-ul{
         list-style-type: none;
         display: flex;
-        margin: 0 100px;
+        margin: 0 8%;
     }
     ul.second-ul li{
-        margin-left: 22px;
+        margin-left: 5%;
     }
     ul.second-ul li a{
         text-decoration: none;
@@ -84,6 +84,8 @@
         color: white;
         font-size: 15px;
         font-family: sans-serif;
+        position: absolute;
+        right: 130px;
         /* font-weight: bold; */
     }
     header.second > button:hover{
