@@ -30,7 +30,7 @@
         top: 0;
     }
     ul.contact{
-        right: 125px;
+        right: 100px;
     }
      ul.mail > li, ul.contact > li{
         margin: 12px 5px;
@@ -54,11 +54,11 @@
         align-items: center;
         position: relative;
      }
-     @media (max-width: 1200px){
+     @media (max-width: 1150px){
         header.second{
             background-color: red;
         }
-     }
+    }
     header.second > img{
         margin-left: 9.5%;
         cursor: pointer;
@@ -79,7 +79,7 @@
         color: rgba(0, 0, 0, 0.466);
         font-weight: bold;
     }
-    header.second > button{
+    header.second > button.btn{
         /* width: 200px; */
         width: 15%;
         border: none;
@@ -90,10 +90,10 @@
         font-size: 15px;
         font-family: sans-serif;
         position: absolute;
-        right: 130px;
+        right: 100px;
         /* font-weight: bold; */
     }
-    header.second > button:hover{
+    header.second > button.btn:hover{
         background-color: white;
         border: 1px solid #009DFF;
         color: #009DFF;
