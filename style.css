@@ -65,7 +65,7 @@
         margin: 0 120px;
     }
     ul.second-ul li{
-        margin-left: 20px;
+        margin-left: 22px;
     }
     ul.second-ul li a{
         text-decoration: none;
@@ -77,14 +77,19 @@
     header.second > button{
         width: 200px;
         border: none;
-        height: 50px;
+        height: 45px;
         width: 200px;
         border: none;
         background-color: #009DFF;
         color: white;
         font-size: 15px;
-        font-family: "Poppins", sans-serif;
+        font-family: sans-serif;
         /* font-weight: bold; */
+    }
+    header.second > button:hover{
+        background-color: white;
+        border: 1px solid #009DFF;
+        color: #009DFF;
     }
 
 
