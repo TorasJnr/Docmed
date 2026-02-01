@@ -75,10 +75,10 @@
         font-weight: bold;
     }
     header.second > button{
-        width: 200px;
+        /* width: 200px; */
+        width: 15%;
         border: none;
         height: 45px;
-        width: 200px;
         border: none;
         background-color: #009DFF;
         color: white;
@@ -90,7 +90,7 @@
         background-color: white;
         border: 1px solid #009DFF;
         color: #009DFF;
-        transition: 0.5s;
+        transition: all 0.5s ease;
     }
 
 
