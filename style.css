@@ -70,7 +70,12 @@
         margin: 0 8%;
     }
     ul.second-ul li{
-        margin-left: 20px;
+        margin-left: 5%;
+    }
+    @media (max-width: 1150px){
+        ul.second-ul{
+            margin: 0 4%;
+        }
     }
     ul.second-ul li a{
         text-decoration: none;
