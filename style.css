@@ -102,6 +102,9 @@
             width: 17%;
             /* font-size: 13px; */
         }
+        header.second > img{
+            margin-left: 4%;
+        }
     }
 
 
