@@ -46,7 +46,7 @@
      }
 
     /* second header  */
-     header.second{
+    header.second{
         height: 15vh;
         width: 100%;
         background-color: white;
@@ -60,7 +60,7 @@
         }
     }
     header.second > img{
-        margin-left: 9.5%;
+        margin-left: 8.5%;
         cursor: pointer;
     }
 
@@ -68,10 +68,9 @@
         list-style-type: none;
         display: flex;
         margin: 0 8%;
-        
     }
     ul.second-ul li{
-        margin-left: 5%;
+        margin-left: 20px;
     }
     ul.second-ul li a{
         text-decoration: none;
