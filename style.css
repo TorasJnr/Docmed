@@ -30,7 +30,7 @@
         top: 0;
     }
     ul.contact{
-        right: 100px;
+        right: 70px;
     }
      ul.mail > li, ul.contact > li{
         margin: 12px 5px;
@@ -54,11 +54,6 @@
         align-items: center;
         position: relative;
      }
-     @media (max-width: 1150px){
-        header.second{
-            background-color: red;
-        }
-    }
     header.second > img{
         margin-left: 8.5%;
         cursor: pointer;
@@ -72,11 +67,6 @@
     ul.second-ul li{
         margin-left: 5%;
     }
-    @media (max-width: 1150px){
-        ul.second-ul{
-            margin: 0 4%;
-        }
-    }
     ul.second-ul li a{
         text-decoration: none;
         font-family: "Poppins", sans-serif;
@@ -85,8 +75,8 @@
         font-weight: bold;
     }
     header.second > button.btn{
-        /* width: 200px; */
         width: 15%;
+        /* width: 200px; */
         border: none;
         height: 45px;
         border: none;
@@ -95,7 +85,7 @@
         font-size: 15px;
         font-family: sans-serif;
         position: absolute;
-        right: 100px;
+        right: 70px;
         /* font-weight: bold; */
     }
     header.second > button.btn:hover{
@@ -103,6 +93,15 @@
         border: 1px solid #009DFF;
         color: #009DFF;
         transition: all 0.5s ease;
+    }
+     @media (max-width: 1150px){
+        ul.second-ul{
+           margin: 0 4%;
+        }
+        header.second > button.btn{
+            width: 17%;
+            /* font-size: 13px; */
+        }
     }
 
 
