@@ -62,10 +62,10 @@
     ul.second-ul{
         list-style-type: none;
         display: flex;
-        margin: 0 8%;
+        margin: 0 5%;
     }
     ul.second-ul li{
-        margin-left: 5%;
+        margin-left: 9%;
     }
     ul.second-ul li a{
         text-decoration: none;
